@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      :root {
+        --base00: #32302f;
+        --base01: #3c3836;
+        --base02: #504945;
+        --base03: #665c54;
+        --base04: #bdae93;
+        --base05: #d5c4a1;
+        --base06: #ebdbb2;
+        --base07: #fbf1c7;
+        --base08: #fb4934;
+        --base09: #fe8019;
+        --base0A: #fabd2f;
+        --base0B: #b8bb26;
+        --base0C: #8ec07c;
+        --base0D: #83a598;
+        --base0E: #d3869b;
+        --base0F: #d65d0e;
+      }
+      body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: var(--base00);
+        color: var(--base05);
+      }
+      h1 {
+        font-family: 'Press Start 2P';
+        font-size: 3em;
+      }
+      h2 {
+        font-family: 'Press Start 2P';
+      }
+
+      .pageContent {
+        max-width: 70em;
+        border: 0.3rem solid var(--base04);
+        border-radius: 1rem;
+        margin: auto;
+        margin-top: 6em;
+        padding: 3em;
+      }
+      code {
+        display: block;
+      }
+      .bg-base00 {
+        background-color: var(--base00);
+      }
+      .bg-base01 {
+        background-color: var(--base01);
+      }
+      .bg-base02 {
+        background-color: var(--base02);
+      }
+      .bg-base03 {
+        background-color: var(--base03);
+      }
+      .bg-base04 {
+        background-color: var(--base04);
+      }
+      .bg-base05 {
+        background-color: var(--base05);
+      }
+      .bg-base06 {
+        background-color: var(--base06);
+      }
+      .bg-base07 {
+        background-color: var(--base07);
+      }
+      .bg-base08 {
+        background-color: var(--base08);
+      }
+      .bg-base09 {
+        background-color: var(--base09);
+      }
+      .bg-base0A {
+        background-color: var(--base0A);
+      }
+      .bg-base0B {
+        background-color: var(--base0B);
+      }
+      .bg-base0C {
+        background-color: var(--base0C);
+      }
+      .bg-base0D {
+        background-color: var(--base0D);
+      }
+      .bg-base0E {
+        background-color: var(--base0E);
+      }
+      .bg-base0F {
+        background-color: var(--base0F);
+      }
+      .colorblock {
+        display: inline-block;
+        min-height: 3rem;
+        min-width: 3rem;
+      }
+
+
+      .hljs{display:block;overflow-x:auto;padding:
+      .5em;background:var(--base01)}
+      .hljs,
+      .hljs-subst{color:var(--base04)}
+      .hljs-comment{color:var(--base03)}
+      .hljs-attribute,
+      .hljs-doctag,
+      .hljs-keyword,
+      .hljs-meta-keyword,
+      .hljs-name,
+      .hljs-selector-tag{font-weight:700}
+      .hljs-deletion,
+      .hljs-number,
+      .hljs-quote,
+      .hljs-selector-class,
+      .hljs-selector-id,
+      .hljs-string,
+      .hljs-template-tag,
+      .hljs-type{color:var(--base09)}
+      .hljs-section,
+      .hljs-title{color:var(--base09);font-weight:700}
+      .hljs-link,
+      .hljs-regexp,
+      .hljs-selector-attr,
+      .hljs-selector-pseudo,
+      .hljs-symbol,
+      .hljs-template-variable,
+      .hljs-variable{color:var(--base08)}
+      .hljs-literal{color:var(--base0D)}
+      .hljs-addition,
+      .hljs-built_in,
+      .hljs-bullet,
+      .hljs-code{color:var(--base0E)}
+      .hljs-meta{color:var(--base0E)}
+      .hljs-meta-string{color:var(--base0E)}
+      .hljs-emphasis{font-style:italic}
+      .hljs-strong{font-weight:700}
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+  </head>
+  <body>
+
+    <div class="pageContent">
+      <h1>WEB16</h1>
+      <div class="colorblock bg-base00"></div><div class="colorblock bg-base01"></div><div class="colorblock bg-base02"></div><div class="colorblock bg-base03"></div><div class="colorblock bg-base04"></div><div class="colorblock bg-base05"></div><div class="colorblock bg-base06"></div><div class="colorblock bg-base07"></div><div class="colorblock bg-base08"></div><div class="colorblock bg-base09"></div><div class="colorblock bg-base0A"></div><div class="colorblock bg-base0B"></div><div class="colorblock bg-base0C"></div><div class="colorblock bg-base0D"></div><div class="colorblock bg-base0E"></div><div class="colorblock bg-base0F"></div>
+      <h2>What is web16</h2>
+      <p>Web16 is a simple standard that allows the user to change the themes of websites with relativly ease using base16.</p>
+      <h2>Creating web16 websites</h2>
+      <p>Design your websites to use base16 with using these variables:</p>
+      <pre><code class="css">:root
+  --base00: #32302f
+  --base01: #3c3836
+  --base02: #504945
+  --base03: #665c54
+  --base04: #bdae93
+  --base05: #d5c4a1
+  --base06: #ebdbb2
+  --base07: #fbf1c7
+  --base08: #fb4934
+  --base09: #fe8019
+  --base0A: #fabd2f
+  --base0B: #b8bb26
+  --base0C: #8ec07c
+  --base0D: #83a598
+  --base0E: #d3869b
+  --base0F: #d65d0e
+}</code></pre>
+      <h2>Making a theme for web16</h2>
+      <p>Add these css lines to the websites, easiest way is to use firefox and userContent. Remember to change the color codes.</p>
+      <pre><code class="css">:root {
+  --base00: #32302f !important;
+  --base01: #3c3836 !important;
+  --base02: #504945 !important;
+  --base03: #665c54 !important;
+  --base04: #bdae93 !important;
+  --base05: #d5c4a1 !important;
+  --base06: #ebdbb2 !important;
+  --base07: #fbf1c7 !important;
+  --base08: #fb4934 !important;
+  --base09: #fe8019 !important;
+  --base0A: #fabd2f !important;
+  --base0B: #b8bb26 !important;
+  --base0C: #8ec07c !important;
+  --base0D: #83a598 !important;
+  --base0E: #d3869b !important;
+  --base0F: #d65d0e !important;
+}</code></pre>
+      <h2>Testing</h2>
+      <p>If you have done it correctly, this webpage should be in a diffrent theme.</p>
+      <h2>Using web16 on other webpages</h2>
+      <p>Add the following css blocks to the same place as you defined your theme</p>
+      <h3>Wikipedia</h3>
+      <pre><code class="css">@-moz-document domain(en.wikipedia.org),
+	domain(no.wikipedia.org) {
+	* {
+		border-color: var(--base04) !important;
+		background-color: var(--base00) !important;
+		color: var(--base05) !important;
+	}
+
+	/* Tabs at the top */
+	.vector-menu-tabs, .vector-menu-tabs a, #mw-head .vector-menu-dropdown h3 {
+		background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, var(--base04) 100%) !important;
+	}
+	/* Line under the tabs */
+	.mw-body {
+		border-top: 1px solid var(--base04) !important;
+		margin-top: 0 !important;
+	}
+
+	/* Links */
+	a {
+		color: var(--base0D) !important;
+	}
+	a:visited {
+		color: var(--base0E) !important;
+	}
+
+	/* Logo */
+	.mw-wiki-logo {
+		background: none !important;
+	}
+	#p-logo{
+		height: 60px !important;
+	}
+}</pre></code>
+      <h3>Youtube</h3>
+      <pre><code class="css">@-moz-document domain(www.youtube.com) {
+  /* Works only with Enhancer for youtube + deep dark theme https://www.mrfdev.com/how-to-use-enhancer-for-youtube */
+  :root {
+    --main-color: var(--base08) !important;
+    --main-background: var(--base00) !important;
+    --second-background: var(--base01) !important;
+    --hover-background: var(--base02) !important;
+    --main-text: var(--base06) !important;
+    --dimmer-text: var(--base04) !important;
+  }
+}</pre></code>
+    </div>
+  </body>
+</html>
