@@ -1,0 +1,47 @@
+/*------------------------------------------------------------------------------
+
+  Overwrite for Wikipedia to make it use web16
+
+  Add the domain of wikipedia in the list of domain names, if you want to add
+  a language
+
+------------------------------------------------------------------------------*/
+@-moz-document
+domain(en.wikipedia.org),
+domain(no.wikipedia.org)
+{
+  * {
+    border-color: var(--base04) !important;
+    background-color: var(--base00) !important;
+    color: var(--base05) !important;
+  }
+
+  /* Tabs at the top */
+  .vector-menu-tabs,
+  .vector-menu-tabs a,
+  #mw-head .vector-menu-dropdown h3 {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, var(--base04) 100%) !important;
+  }
+
+  /* Line under the tabs */
+  .mw-body {
+    border-top: 1px solid var(--base04) !important;
+    margin-top: 0 !important;
+  }
+
+  /* Links */
+  a {
+    color: var(--base0D) !important;
+  }
+  a:visited {
+    color: var(--base0E) !important;
+  }
+
+  /* Logo  - Remove this to renable logo*/
+  .mw-wiki-logo {
+    background: none !important;
+  }
+  #p-logo{
+    height: 60px !important;
+  }
+}

@@ -1,0 +1,48 @@
+/*------------------------------------------------------------------------------
+
+  Overwrite for DuckDuckGo to make it use web16
+
+  This is by no means a good overwrite, do not do this, see Wikipedia.css for
+  a better example.
+
+------------------------------------------------------------------------------*/
+@-moz-document domain(duckduckgo.com) {
+	html, body, .body--home, .site-wrapper, .region__body, .badge-link, .module--carousel__image-wrapper, .result__image, .vertical--map__sidebar, .vertical--map__sidebar__header, .page-chrome_newtab, .zci--type--tiles:not(.is-fallback).is-full-page.is-expanded, .zci--type--tiles:not(.is-fallback).is-full-page.is-expanded .metabar:not(.is-stuck) {
+		background-color: var(--base00) !important;
+		color: var(--base05) !important;
+	}
+	.header-wrap, .vertical--map--sidebar-left .vertical--map__sidebar__header, .vertical--map--sidebar-left .has-requery .vertical--map__sidebar__header, .vertical--map__sidebar__header--mobile, .map-requery-mobile, .footer, .footer--mobile {
+		background-color: var(--base02) !important;
+		color: var(--base05) !important;
+	}
+	.search--home, .search--header, .module:not(.module--carousel):not(.module--placeholder):not(.module--images), .modal--popout .modal__box, .modal__box, .sidebar-modules .module, .results--main .result:not(.result--ad).highlight, .module .module--carousel__item, .user-loc-cta, .address-detail, .modal--dropdown.modal--popout .modal__box, .tile--info, .place-detail, .badge-link, .is-atb-fullbleed .content-info__item, .atb-banner__bottom, .multi-step-mobile-onboarding__step__content, .is-mobile .results_links_deep, .is-mobile .results_links, .is-mobile .result--news, .is-mobile .related-searches, .most-visited__info-tt, .user-loc-tooltip,
+	.nav-menu, .nav-menu--slideout {
+		background-color: var(--base03) !important;
+		border-color: var(--base03) !important;
+		box-shadow: none !important;
+	}
+	a, a:hover, .no-visited, .result__a, .result__a:hover, .result__a:active, .result__a:focus, .badge--ad, .badge--ad:hover, .badge--ad:focus, .highlight .result__a, .highlight .result__a:hover, .result__a:visited, .tag-home__link, .tag-home__link:hover, .tag-home__link:visited, .tag-home__link:active, .tag-home__link:focus, .homepage--text_promo--link, .homepage--text_promo--link:hover, .homepage--text_promo--link:visited, .homepage--text_promo--link:active, .homepage--text_promo--link:focus, .tag-home__nav__close:hover, .page-settings, .frm__label, .badge-link__text, .badge-link__cookie-msg, .no-results__link, .no-results__link:visited, .no-results__link:active, .no-results__link:hover, .vertical--map__sidebar__results__inner .no-results__link, .vertical--map__sidebar__results__inner .no-results__link:hover, .modal__header__title, .modal__header__clear:hover, .modal__list__link, .modal__list__link:hover, .modal__list__link:visited, .modal__list__link:focus, .modal__list__link.is-highlighted, .modal--dropdown .modal__list__link.is-selected, .modal--dropdown .modal__list__link.is-selected:hover, .module--carousel__body__title, .module--carousel__body__title:hover, .module--carousel__body__title:active, .module--carousel__body__title:visited, .module--carousel__left, .module--carousel__right, .is-mobile .module--images .module__toggle, .modal select, .dropdown.is-open .dropdown__button, .dropdown .dropdown__button:hover, .dropdown.dropdown--location .dropdown__button:hover, .feedback-prompt__link:hover, .feedback-btn__icon, .feedback-btn__send, .feedback-modal__heading__prompt.has-category, .feedback-modal__heading__prompt, .feedback-modal .frm__label, .forecast-wrapper .module__more-at .zci__more-at:hover, .forecast-wrapper .module--forecast .module__weather-warning:not(.module__weather-warning--red), .forecast-wrapper .module--forecast .module__weather-warning:hover:not(.module__weather-warning--red), .forecast-wrapper .module--forecast .module__weather-warning:active:not(.module__weather-warning--red), .module__title__link, .module__title__link:hover, .module__title__link:visited, .module__title__link:active, .about-info-box__heading, .about-info-box__link-row__link, .about-info-box__link-row__link:hover, .dropdown--region.has-inactive-region .dropdown__button:hover, .dropdown.is-active:not(.has-inactive-region) .dropdown__button, .module__more-at, .module__more-at:hover, .module__more-at:active, .module__more-at:focus, .module__more-at-bottom, .module__more-at-bottom:hover, .module__official-url, .module__official-url:hover, .module__link, .module__link:hover, .module__link:focus, .module__link:active, .module__link a, .module__link a:hover, .module__link a:focus, .module__link a:active, .address-detail__name, .address-detail .btn.btn--primary, .dir-btn .btn.dir-btn__link, .mapboxgl-ctrl, .mapboxgl-ctrl a, .mapkit-static__attribution, .mapkit-static__cta, .module__header.module__header--link, .module__footer, .module__footer:visited, .module__footer:active, .module__footer:hover, .module__toggle__text, .user-loc-cta__title, .user-loc-filter-modal__title, .user-loc-cta__survey, .user-loc-error__fix__step, .user-loc-title, .user-loc-survey, .user-loc-cta__more, .user-loc-error__text, .user-loc-error .user-loc-error__header, .user-loc-cta, .user-loc-subtitle, .place-list-item__title, .result__sitelinks .sponsored__sitelink, .result__sitelinks .sponsored__sitelink b, .result__sitelinks .sponsored__sitelink:active, .result__sitelinks .sponsored__sitelink:focus, .result__sitelinks .sponsored__sitelink:hover, .vertical--map__search-examples__button, .cloudsave__new-suggestion, .cloudsave__new-suggestion:hover, .footer__text, .set-main .frm__section-label, .frm__select select, .modal--dropdown .modal__list__link.is-selected, .modal--dropdown .modal__list__link.is-selected:visited, .modal--dropdown .modal__list__link.is-selected:hover, .modal--dropdown.modal--dropdown--date .modal__footer .modal__list__link, .modal--dropdown.modal--dropdown--date .modal__footer .modal__list__link:visited, .modal--dropdown.modal--dropdown--date .modal__footer .modal__list__link:hover, .modal--dropdown.modal--dropdown--license .modal__footer .modal__list__link, .modal--dropdown.modal--dropdown--license .modal__footer .modal__list__link:visited, .modal--dropdown.modal--dropdown--license .modal__footer .modal__list__link:hover, .place-detail__status, .place-detail__cta-text {
+		color: var(--base04) !important;
+	}
+	.module__text, .module--carousel__footer, .user-loc-cta__dismiss, .module__title__sub, .user-loc-content__addl-opts__title, .user-loc-content__addl-opts__subtitle {
+		color: var(--base05) !important;
+	}
+	.zci__more-at__icon {
+		display: none !important;
+	}
+	.result__snippet, .result__snippet b, .result__snippet .sponsored__sitelink__comma {
+		color: var(--base04) !important;
+	}
+	.search-filters-wrap::before,
+	.search-filters-wrap::after,
+	.search__input--adv {
+		background: none !important;
+		color: var(--base06) !important;
+	}
+	.btn--icon, .header__link, .header__link:visited, .header__label, .showcase .social__link__text, .header__button--menu, .no-touch .btn--icon, .no-touch .header__button, .no-touch .header__button--menu {
+		color: var(--base04) !important;
+	}
+	.showcase .showcase__heading, .showcase .social__link__text:hover, .header__link:hover, .header__label:hover, .header__clickable:hover {
+		color: var(--base07) !important;
+	}
+}

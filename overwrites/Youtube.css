@@ -1,0 +1,18 @@
+/*------------------------------------------------------------------------------
+
+  Overwrite for Youtube to make it use web16
+
+  Requires (for now) Enhancer for youtube + deep dark theme
+  https://www.mrfdev.com/how-to-use-enhancer-for-youtube
+
+------------------------------------------------------------------------------*/
+@-moz-document domain(www.youtube.com) {
+  :root {
+    --main-color: var(--base08) !important;
+    --main-background: var(--base00) !important;
+    --second-background: var(--base01) !important;
+    --hover-background: var(--base02) !important;
+    --main-text: var(--base06) !important;
+    --dimmer-text: var(--base04) !important;
+  }
+}

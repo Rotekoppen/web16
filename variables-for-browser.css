@@ -1,0 +1,28 @@
+/*------------------------------------------------------------------------------
+
+  Have your browser inject these variables into websites.
+
+  You can change the colors to change the theme.
+
+  If you use firefox you can add enable legacy stylesheets and add these
+  variables to your userContent.css
+
+------------------------------------------------------------------------------*/
+:root {
+  --base00: #32302f !important;
+  --base01: #3c3836 !important;
+  --base02: #504945 !important;
+  --base03: #665c54 !important;
+  --base04: #bdae93 !important;
+  --base05: #d5c4a1 !important;
+  --base06: #ebdbb2 !important;
+  --base07: #fbf1c7 !important;
+  --base08: #fb4934 !important;
+  --base09: #fe8019 !important;
+  --base0A: #fabd2f !important;
+  --base0B: #b8bb26 !important;
+  --base0C: #8ec07c !important;
+  --base0D: #83a598 !important;
+  --base0E: #d3869b !important;
+  --base0F: #d65d0e !important;
+}
