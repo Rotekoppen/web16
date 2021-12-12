@@ -67,7 +67,3 @@ You can make a web16 compatible website by using these variables: (also found in
   --base0F: #d65d0e;
 }
 ```
-
-## Web16 compatible sites
-
-[Blockmashup](https://server.aarmo.com:25999) - a simple website ranking all the minecraft blocks
